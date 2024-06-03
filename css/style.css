@@ -1,0 +1,112 @@
+:root {
+    /* background: url(/Afbeeldingen/ahVzfm1hcmtldGpzLWVudGVycHJpc2VyEQsSBEdhbWUYgICAk5z2-AoM.png); 
+    background-size: cover; */
+    background-color: grey;
+    --text-color: ;
+}
+
+* {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition-duration: 1s;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h2 {
+    color: red;
+}
+
+.score-class {
+    color: var(--text-color);
+}
+
+.player-class {
+    color: var(--text-color);
+}
+
+.container {
+    text-align: center;
+}
+
+.timer {
+    color: red;
+}
+
+.theme-one {
+    margin-left: 600px;
+    margin-top: 100px;
+    font-size: large;
+    border-radius: 500px;
+    border-color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.theme-two {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: large;
+    border-radius: 500px;
+    border-color: var(--text-color);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.start-button {
+    margin-left: 200px;
+    margin-top: 100px;
+    font-size: large;
+    border-radius: 500px;
+    border-color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: center;
+    padding: 5px 50px;
+    cursor: pointer;
+    color: lightgreen;
+    transition-duration: 1s;
+}
+
+.start-button:disabled {
+    opacity: 0.4;
+}
+
+.game-board {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 180px);
+    grid-gap: 10px;
+    width: 540px;
+    height: 540px;
+    background-color: var(--background-color);
+}
+
+.game-board div {
+    width: 180px;
+    height: 180px;
+    background: url("/Afbeeldingen/mole.png");
+    background-size: cover;
+}
+
+.game-board div img {
+    margin-left: 45px;
+    width: 80px;
+    height: 80px;
+}
