@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(/Afbeeldingen/gamehall\ 4.jpg);
+    background-blend-mode: lighten;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    font-size: larger;
+    border-radius: 500px;
+    border-color: var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    font-style: oblique;
+    padding: 5px 50px;
+    cursor: pointer;
+    color: white;
+    transition-duration: 1s;
+}
+
+.grid {
+    column-count: 3;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.tile {
+    color: white;
+    border: 5px solid white;
+}
+
+.tile:nth-child(1){
+    margin: auto;
+    width: 500px;
+    height: 550px;
+}
+
+.tile:nth-child(2){
+    margin: auto;
+    width: 500px;
+    height: 550px;
+}
+
+.tile:nth-child(3){
+    margin: auto;
+    width: 500px;
+    height: 550px;
+}
+
+.games{
+    text-align: center;
+    margin-top: 90px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
